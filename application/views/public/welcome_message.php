@@ -4,11 +4,23 @@ session_start();
 <!DOCTYPE html>
 <!-- saved from url=(0018)http://oumbox.com/ -->
 <html style="padding-right: 0px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>E-cabinet</title>
     <link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css/micons.css') ?>" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css//materialize.min.css') ?>" media="screen,projection">
+    <style>
+        html {
+            background: #C3E6F3 no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-<div class="register">
+<div class="container">
     <div class="row">
         <div class="col s12 m12 l12">
             <div class="collapsible-header pink lighten-2 white-text waves-effect waves-light active"><span class="micons-clock prefix"></span> Nouveau rendez-vous</div>
